@@ -2,6 +2,6 @@ version: "3.10"
 services:
   worker:python3 bot.py
     build:
-    environment:
-      - BOT_TOKEN=${BOT_TOKEN}
+      environment:
+        - BOT_TOKEN=${BOT_TOKEN}
       
