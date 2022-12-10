@@ -1,0 +1,48 @@
+{
+    "name": "telegram-music-downloader-bot",
+    "version": "1.0.0",
+    "description": "YouTube Music Downloader Bot for Telegram. ",
+      "stack": "container",
+    "repository": "https://github.com/panda0980/music-downloader-bot",
+    "keywords": [
+    "python", 
+    "chatbot", 
+    "telegrambot"
+    ],
+    "website": "https://github.com/panda0980/music-downloader-bot",
+    "success_url": "https://t.me/tlmusicdownloader_bot",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Make a bot at BotFather http://telegram.dog/BotFather and get the token of your bot",
+        "value": "",
+        "required": true
+        },
+       "API_ID": {
+        "description": "you can get apiid from https://my.telegram.org/auth",
+        "value": "",
+        "required": true
+
+       },
+       "API_HASH": {
+        "description": "you can get apiid from https://my.telegram.org/auth",
+        "value": "",
+        "required": true
+
+       },
+       "DATA_URL": {
+        "description": "make a Mongo DB database and get url",
+        "value": "",
+        "required": true
+
+       },
+       "DATA_NAME": {
+        "description": "Give a Mongo db collection name",
+        "value": "",
+        "required": true
+
+       }
+
+    }
+  }
+  
+  
