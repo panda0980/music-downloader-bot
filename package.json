@@ -17,30 +17,30 @@
     "env": {
       "BOT_TOKEN": {
         "description": "Make a bot at BotFather http://telegram.dog/BotFather and get the token of your bot",
-        "value": "",
+        "value": "5813212548:AAE4oFIh16NFjSRzquFnNPN2AiR6pE_odVA",
         "required": true
         },
        "API_ID": {
         "description": "you can get apiid from https://my.telegram.org/auth",
-        "value": "",
+        "value": "11671320",
         "required": true
 
        },
        "API_HASH": {
         "description": "you can get apiid from https://my.telegram.org/auth",
-        "value": "",
+        "value": "8e409e260f1d80f0ead65da912ee07bb",
         "required": true
 
        },
        "DATA_URL": {
         "description": "make a Mongo DB database and get url",
-        "value": "",
+        "value": "mongodb+srv://panda:eGOv61gScegMQddj@cluster0.lilgk.mongodb.net/?retryWrites=true&w=majority",
         "required": true
 
        },
        "DATA_NAME": {
         "description": "Give a Mongo db collection name",
-        "value": "",
+        "value": "Music downloader",
         "required": true
 
        }
