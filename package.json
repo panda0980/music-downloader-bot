@@ -5,7 +5,7 @@
     "stack": "container",
     "scripts": {
               "start": "python bot.py"
-           }
+           },
     "repository": "https://github.com/panda0980/music-downloader-bot",
     "keywords": [
     "python", 
