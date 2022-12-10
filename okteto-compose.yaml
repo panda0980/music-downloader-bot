@@ -3,8 +3,5 @@ services:
   worker:
     build:
     environment:
-      - API_ID=${API_ID}
-      - API_HASH=${API_HASH}
       - BOT_TOKEN=${BOT_TOKEN}
-      - DATA_URL=${DATA_URL}
-      - DATA_NAME=${DATA_NAME}
+      
