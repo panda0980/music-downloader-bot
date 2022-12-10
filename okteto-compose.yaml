@@ -3,5 +3,5 @@ services:
   worker: python3 bot.py
     build:
     environment:
-      - BOT_TOKEN=${BOT_TOKEN}
+      BOT_TOKEN=${BOT_TOKEN}
       
