@@ -2,7 +2,10 @@
     "name": "telegram-music-downloader-bot",
     "version": "1.0.0",
     "description": "YouTube Music Downloader Bot for Telegram. ",
-      "stack": "container",
+    "stack": "container",
+    "scripts": {
+              "start": "python bot.py"
+           }
     "repository": "https://github.com/panda0980/music-downloader-bot",
     "keywords": [
     "python", 
